@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{de9af1d0-ed98-47af-87f9-16400c7a717e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0.MainGame">
+      <UniqueIdentifier>{84368dd4-a61c-412e-a87c-722e367085b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\LoadBmp">
+      <UniqueIdentifier>{5d3b2946-adad-46a2-ac31-3807f90cb19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State">
+      <UniqueIdentifier>{aea34792-eb99-4d74-b0fc-65ef2946f468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object">
+      <UniqueIdentifier>{c8559166-9e1e-40e2-a245-9482ae049b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\1.Logo">
+      <UniqueIdentifier>{f4d0b41b-d41f-4d22-b283-d9775629c790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\1.Logo\Logoback">
+      <UniqueIdentifier>{70b6dbb0-06a1-45bb-9186-017ea900dfb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\2.Menu">
+      <UniqueIdentifier>{11ae9b64-4d57-4cee-95e4-921ae8d7b690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\2.Menu\MenuBack">
+      <UniqueIdentifier>{8a2bdec3-a5fc-424d-b02b-7973ffc153cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\3.Stage">
+      <UniqueIdentifier>{95488d54-12b5-4a2c-8c0d-c5a2392d0c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\3.Stage\StageBack">
+      <UniqueIdentifier>{9427246a-3072-4d2b-9b71-edc9b4cf886d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\1.Logo">
+      <UniqueIdentifier>{02c994a8-e33f-4fd8-a47f-34d33221a23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\2.Menu">
+      <UniqueIdentifier>{32122e0f-804b-4084-80b5-6e3caa48be83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\3.Stage">
+      <UniqueIdentifier>{3a9d84ae-5b3a-474d-8b52-b76d3629cdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.Manager">
+      <UniqueIdentifier>{d2124951-b20b-4d77-8894-50d5a40f000a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.Manager\Factory">
+      <UniqueIdentifier>{d5b5d575-566b-403f-a335-09d2abf15197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\2.Menu\MainMenu">
+      <UniqueIdentifier>{b76168ee-191c-4be4-a794-8fd94391abd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\2.Menu\MenuButton">
+      <UniqueIdentifier>{38cae581-e7d3-4954-a575-1ec5ff7443b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.Manager\StateMgr">
+      <UniqueIdentifier>{3275d634-1869-4ae7-8fca-aed8baeb211e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\3.Stage\StageBack">
+      <UniqueIdentifier>{6ceb9b9a-0284-403e-9fa3-67f649f6154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.State\3.Stage\Player">
+      <UniqueIdentifier>{f50abbbf-8a2e-4fc3-b71c-f1708083c7bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Adventure Road.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\0.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBmp.h">
+      <Filter>리소스 파일\LoadBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>소스 파일\1.State</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\2.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoBack.h">
+      <Filter>소스 파일\2.Object\1.Logo\Logoback</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBack.h">
+      <Filter>소스 파일\2.Object\2.Menu\MenuBack</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBack.h">
+      <Filter>소스 파일\2.Object\3.Stage\StageBack</Filter>
+    </ClInclude>
+    <ClInclude Include="AbStractFactory.h">
+      <Filter>소스 파일\3.Manager\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\1.State\1.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\1.State\2.Menu\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>소스 파일\2.Object\2.Menu\MenuButton</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>소스 파일\3.Manager\StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\1.State\3.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBack.h">
+      <Filter>소스 파일\1.State\3.Stage\StageBack</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\1.State\3.Stage\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Adventure Road.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\0.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBmp.cpp">
+      <Filter>리소스 파일\LoadBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>소스 파일\1.State</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\2.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoBack.cpp">
+      <Filter>소스 파일\2.Object\1.Logo\Logoback</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBack.cpp">
+      <Filter>소스 파일\2.Object\2.Menu\MenuBack</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBack.cpp">
+      <Filter>소스 파일\2.Object\3.Stage\StageBack</Filter>
+    </ClCompile>
+    <ClCompile Include="AbStractFactory.cpp">
+      <Filter>소스 파일\3.Manager\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\1.State\1.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\1.State\2.Menu\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>소스 파일\2.Object\2.Menu\MenuButton</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>소스 파일\3.Manager\StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\1.State\3.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBack.cpp">
+      <Filter>소스 파일\1.State\3.Stage\StageBack</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\1.State\3.Stage\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Adventure Road.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Adventure Road.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
